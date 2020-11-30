@@ -1,0 +1,23 @@
+footer{
+  width: 98%;
+  height: 60px;
+  margin: 20px 10px 0;
+  border-top: 1px solid #1b2127;
+  display: flex;
+  justify-content: space-around;
+}
+
+footer a {
+  margin-top: 1rem;
+  text-decoration: none;
+  color: black;
+}  
+
+footer a:hover {
+  text-decoration: underline;
+  transition: 450ms -webkit-transform;
+  transition: 450ms transform;
+  transition: 450ms transform, 450ms -webkit-transform;
+  transform: scale(1.3)
+}  
+
